@@ -39,7 +39,7 @@ html, body {
 	/* height: 100%; */
 }
 body {
-	font-family: @serif;
+	font-family: $serif;
 	font-size: 100%;
 	line-height: 1.5;
 	color: #565656;
@@ -94,18 +94,25 @@ body {
 	width: 96%;
 	margin: 0 auto;
 }
-#container {}
+#container {
+	@extend %limiter;
+	@extend %center-block;
+	
+}
+#main {
+	@extend %group;
+}
 
 /*********************
 04. LINK STYLES
 *********************/
 
 a, a:visited {
-	color: @link-color;
+	color: $link-color;
 
 	/* on hover */
 	&:hover, &:focus {
-		color: @link-hover;
+		color: $link-hover;
 	}
 
 	/* on click */
@@ -129,7 +136,7 @@ a, a:visited {
 ******************************************************************/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-	font-family: @sans-serif;
+	font-family: $sans-serif;
 	text-rendering: optimizelegibility;
 	font-weight: 400;
 	/*
@@ -175,22 +182,12 @@ h5, .h5 {
 *********************/
 
 .header {
+	border-bottom: 1px solid #ccc;
 	#inner-header {}
 
 	#site-title {}
 	#logo {}
 
-	nav {
-		ul.nav {
-			li {
-				a {}
-
-				&:first-child {}
-
-				&:last-child {}
-			}
-		}
-	}
 }
 
 /*********************
@@ -206,8 +203,9 @@ and more scalable.
 */
 
 .nav {
-	border: 1px solid #ccc;
 	border-bottom: 0;
+
+	ul {@include navigation-list;}
 
 	li {
 
@@ -215,8 +213,6 @@ and more scalable.
 			display: block;
 			text-decoration: none;
 			padding: 10px 10px;
-			background-color: #eee;
-			border-bottom: 1px solid #ccc;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
