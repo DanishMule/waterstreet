@@ -11,6 +11,13 @@ sidebars, comments, ect.
 /************* INCLUDE NEEDED FILES ***************/
 
 /*
+1. library/waterstreet.php
+	— Get rid of relative urls for browserSync
+*/
+require_once( 'library/waterstreet.php' ); // if you remove this, bones will break
+
+
+/*
 1. library/bones.php
 	- head cleanup (remove rsd, uri links, junk css, ect)
 	- enqueueing scripts & styles

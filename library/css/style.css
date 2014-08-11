@@ -1,3 +1,4 @@
+@import url(../fonts/fontello/css/fontello.css);
 /******************************************************************
 Site Name:
 Author:
@@ -16,26 +17,13 @@ of the styles inside media queries.
 /*
  * Corrects `block` display not defined in IE6/7/8/9 & FF3.
  */
-@import url(../fonts/fontello/css/fontello.css);
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
 /*
  * Corrects `inline-block` display not defined in IE6/7/8/9 & FF3.
  */
-audio,
-canvas,
-video {
+audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1; }
@@ -76,11 +64,7 @@ html {
  * Addresses `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-html,
-button,
-input,
-select,
-textarea {
+html, button, input, select, textarea {
   font-family: sans-serif; }
 
 /*
@@ -102,8 +86,7 @@ a:focus {
  * Improves readability when focused and also mouse hovered in all browsers.
  * people.opera.com/patrickl/experiments/keyboard/test
  */
-a:active,
-a:hover {
+a:active, a:hover {
   outline: 0; }
 
 /* ==========================================================================
@@ -146,8 +129,7 @@ abbr[title] {
 /*
  * Addresses style set to `bolder` in FF3+, S4/5, Chrome.
  */
-b,
-strong {
+b, strong {
   font-weight: bold; }
 
 blockquote {
@@ -169,18 +151,14 @@ mark {
 /*
  * Addresses margins set differently in IE6/7.
  */
-p,
-pre {
+p, pre {
   margin: 1em 0; }
 
 /*
  * Corrects font family set oddly in IE6, S4/5, Chrome.
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
-code,
-kbd,
-pre,
-samp {
+code, kbd, pre, samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
   font-size: 1em; }
@@ -202,8 +180,7 @@ q {
 /*
  * Addresses `quotes` property not supported in S4.
  */
-q:before,
-q:after {
+q:before, q:after {
   content: '';
   content: none; }
 
@@ -214,8 +191,7 @@ small {
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  * gist.github.com/413930
  */
-sub,
-sup {
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -233,10 +209,7 @@ sub {
 /*
  * Addresses margins set differently in IE6/7.
  */
-dl,
-menu,
-ol,
-ul {
+dl, menu, ol, ul {
   margin: 1em 0; }
 
 dd {
@@ -245,16 +218,13 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7.
  */
-menu,
-ol,
-ul {
+menu, ol, ul {
   padding: 0 0 0 40px; }
 
 /*
  * Corrects list images handled incorrectly in IE7.
  */
-nav ul,
-nav ol {
+nav ul, nav ol {
   list-style: none;
   list-style-image: none; }
 
@@ -323,10 +293,7 @@ legend {
  * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome.
  * 3. Improves appearance and consistency in all browsers.
  */
-button,
-input,
-select,
-textarea {
+button, input, select, textarea {
   font-size: 100%;
   /* 1 */
   margin: 0;
@@ -340,8 +307,7 @@ textarea {
  * Addresses FF3/4 setting `line-height` on `input` using `!important` in the
  * UA stylesheet.
  */
-button,
-input {
+button, input {
   line-height: normal; }
 
 /*
@@ -353,10 +319,7 @@ input {
  * 4. Removes inner spacing in IE7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE6.
  */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
@@ -367,8 +330,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-button[disabled],
-input[disabled] {
+button[disabled], input[disabled] {
   cursor: default; }
 
 /*
@@ -377,8 +339,7 @@ input[disabled] {
  * 3. Removes excess padding in IE7.
  *    Known issue: excess padding remains in IE6.
  */
-input[type="checkbox"],
-input[type="radio"] {
+input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -404,15 +365,13 @@ input[type="search"] {
 /*
  * Removes inner padding and search cancel button in S5, Chrome on OS X.
  */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /*
  * Removes inner padding and border in FF3+.
  */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
@@ -464,9 +423,7 @@ ul, ol {
 dd {
   margin: 0; }
 
-.sidebar ul,
-.sidebar ol,
-.commentlist {
+.sidebar ul, .sidebar ol, .commentlist {
   list-style: none; }
 
 /******************************************************************
@@ -625,7 +582,7 @@ use the best ampersand
 http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
 span.amp {
-  font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif;
+  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
   font-style: italic; }
 
 /* text alignment */
@@ -726,11 +683,11 @@ really slow down your CSS. Don't overdo it.
 BUTTONS
 *********************/
 .button, .button:visited {
-  border: 1px solid #be0d37;
-  border-top-color: #db0f3f;
-  border-left-color: #db0f3f;
+  border: 1px solid #be0d39;
+  border-top-color: #db0f42;
+  border-left-color: #db0f42;
   padding: 4px 12px;
-  color: white;
+  color: #fff;
   display: inline-block;
   font-size: 11px;
   font-weight: bold;
@@ -747,58 +704,58 @@ BUTTONS
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  background-color: #e40f42;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f01d4f), to(#e40f42));
-  background-image: -webkit-linear-gradient(top, #f01d4f, #e40f42);
-  background-image: -moz-linear-gradient(top, #f01d4f, #e40f42);
-  background-image: -o-linear-gradient(top, #f01d4f, #e40f42);
-  background-image: linear-gradient(to bottom, #f01d4f, #e40f42); }
+  background-color: #e40f44;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f01d4f), to(#e40f44));
+  background-image: -webkit-linear-gradient(top, #f01d4f, #e40f44);
+  background-image: -moz-linear-gradient(top, #f01d4f, #e40f44);
+  background-image: -o-linear-gradient(top, #f01d4f, #e40f44);
+  background-image: linear-gradient(to bottom, #f01d4f, #e40f44); }
   .button:hover, .button:focus, .button:visited:hover, .button:visited:focus {
-    color: white;
-    border: 1px solid #be0d37;
-    border-top-color: #9d0a2d;
-    border-left-color: #9d0a2d;
-    background-color: #cc0e3b;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#e40f42), to(#cc0e3b));
-    background-image: -webkit-linear-gradient(top, #e40f42, #cc0e3b);
-    background-image: -moz-linear-gradient(top, #e40f42, #cc0e3b);
-    background-image: -o-linear-gradient(top, #e40f42, #cc0e3b);
-    background-image: linear-gradient(to bottom, #e40f42, #cc0e3b); }
+    color: #fff;
+    border: 1px solid #be0d39;
+    border-top-color: #9d0a2f;
+    border-left-color: #9d0a2f;
+    background-color: #cc0e3d;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e40f44), to(#cc0e3d));
+    background-image: -webkit-linear-gradient(top, #e40f44, #cc0e3d);
+    background-image: -moz-linear-gradient(top, #e40f44, #cc0e3d);
+    background-image: -o-linear-gradient(top, #e40f44, #cc0e3d);
+    background-image: linear-gradient(to bottom, #e40f44, #cc0e3d); }
   .button:active, .button:visited:active {
     background-color: #f01d4f;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#e40f42), to(#f01d4f));
-    background-image: -webkit-linear-gradient(top, #e40f42, #f01d4f);
-    background-image: -moz-linear-gradient(top, #e40f42, #f01d4f);
-    background-image: -o-linear-gradient(top, #e40f42, #f01d4f);
-    background-image: linear-gradient(to bottom, #e40f42, #f01d4f); }
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e40f44), to(#f01d4f));
+    background-image: -webkit-linear-gradient(top, #e40f44, #f01d4f);
+    background-image: -moz-linear-gradient(top, #e40f44, #f01d4f);
+    background-image: -o-linear-gradient(top, #e40f44, #f01d4f);
+    background-image: linear-gradient(to bottom, #e40f44, #f01d4f); }
 
 .blue-button, .blue-button:visited {
   border-color: #1472ad;
   text-shadow: 0 1px 1px #1472ad;
-  background-color: #1681c4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1990db), to(#1681c4));
-  background-image: -webkit-linear-gradient(top, #1990db, #1681c4);
-  background-image: -moz-linear-gradient(top, #1990db, #1681c4);
-  background-image: -o-linear-gradient(top, #1990db, #1681c4);
-  background-image: linear-gradient(to bottom, #1990db, #1681c4);
-  -webkit-box-shadow: inset 0 0 3px #59b3ec;
-  -moz-box-shadow: inset 0 0 3px #59b3ec;
-  box-shadow: inset 0 0 3px #59b3ec; }
+  background-color: #1682c4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1990db), to(#1682c4));
+  background-image: -webkit-linear-gradient(top, #1990db, #1682c4);
+  background-image: -moz-linear-gradient(top, #1990db, #1682c4);
+  background-image: -o-linear-gradient(top, #1990db, #1682c4);
+  background-image: linear-gradient(to bottom, #1990db, #1682c4);
+  -webkit-box-shadow: inset 0 0 3px #59b4ec;
+  -moz-box-shadow: inset 0 0 3px #59b4ec;
+  box-shadow: inset 0 0 3px #59b4ec; }
   .blue-button:hover, .blue-button:focus, .blue-button:visited:hover, .blue-button:visited:focus {
     border-color: #116396;
     background-color: #1472ad;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1784c9), to(#1472ad));
-    background-image: -webkit-linear-gradient(top, #1784c9, #1472ad);
-    background-image: -moz-linear-gradient(top, #1784c9, #1472ad);
-    background-image: -o-linear-gradient(top, #1784c9, #1472ad);
-    background-image: linear-gradient(to bottom, #1784c9, #1472ad); }
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1785c9), to(#1472ad));
+    background-image: -webkit-linear-gradient(top, #1785c9, #1472ad);
+    background-image: -moz-linear-gradient(top, #1785c9, #1472ad);
+    background-image: -o-linear-gradient(top, #1785c9, #1472ad);
+    background-image: linear-gradient(to bottom, #1785c9, #1472ad); }
   .blue-button:active, .blue-button:visited:active {
     background-color: #1990db;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1681c4), to(#1990db));
-    background-image: -webkit-linear-gradient(top, #1681c4, #1990db);
-    background-image: -moz-linear-gradient(top, #1681c4, #1990db);
-    background-image: -o-linear-gradient(top, #1681c4, #1990db);
-    background-image: linear-gradient(to bottom, #1681c4, #1990db); }
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1682c4), to(#1990db));
+    background-image: -webkit-linear-gradient(top, #1682c4, #1990db);
+    background-image: -moz-linear-gradient(top, #1682c4, #1990db);
+    background-image: -o-linear-gradient(top, #1682c4, #1990db);
+    background-image: linear-gradient(to bottom, #1682c4, #1990db); }
 
 /******************************************************************
 Site Name:
@@ -832,9 +789,6 @@ and will be used across all viewports.
 /*********************
 01. GENERAL STYLES
 *********************/
-html, body {
-  /* height: 100%; */ }
-
 body {
   font-family: "Georgia", Cambria, Times New Roman, Times, serif;
   font-size: 100%;
@@ -896,13 +850,13 @@ a, a:visited {
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #d10e3c; }
+    color: #d10e3f; }
   a:link, a:visited:link {
     /*
-    this highlights links on iPhones/iPads.
-    so it basically works like the :hover selector
-    for mobile devices.
-    */
+		this highlights links on iPhones/iPads.
+		so it basically works like the :hover selector
+		for mobile devices.
+		*/
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
 
 /******************************************************************
@@ -913,9 +867,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   font-weight: 400;
   /*
-  if you're going to use webfonts, be sure to check your weights
-  http://css-tricks.com/watch-your-font-weight/
-  */
+	if you're going to use webfonts, be sure to check your weights
+	http://css-tricks.com/watch-your-font-weight/
+	*/
   /* removing text decoration from all headline links */ }
   h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
     text-decoration: none; }
@@ -975,24 +929,23 @@ and more scalable.
         margin-right: 0px; }
   .nav li {
     /*
-    so you really have to rethink your dropdowns for mobile.
-    you don't want to have it expand too much because the
-    screen is so small. How you manage your menu should
-    depend on the project. Here's some great info on it:
-    http://www.alistapart.com/articles/organizing-mobile/
-    */ }
+		so you really have to rethink your dropdowns for mobile.
+		you don't want to have it expand too much because the
+		screen is so small. How you manage your menu should
+		depend on the project. Here's some great info on it:
+		http://www.alistapart.com/articles/organizing-mobile/
+		*/ }
     .nav li a {
       display: block;
       text-decoration: none;
       padding: 10px 10px;
       /*
-      remember this is for mobile ONLY, so there's no need
-      to even declare hover styles here, you can do it in
-      the style.scss file where it's relevant. We want to
-      keep this file as small as possible!
-      */ }
-    .nav li ul.sub-menu li a,
-    .nav li ul.children li a {
+			remember this is for mobile ONLY, so there's no need
+			to even declare hover styles here, you can do it in
+			the style.scss file where it's relevant. We want to
+			keep this file as small as possible!
+			*/ }
+    .nav li ul.sub-menu li a, .nav li ul.children li a {
       padding-left: 30px; }
 
 /* end .nav */
@@ -1020,11 +973,11 @@ and more scalable.
 /* entry content */
 .entry-content {
   /*
-  image alignment on a screen this size may be
-  a bit difficult. It's set to start aligning
-  and floating images at the next breakpoint,
-  but it's up to you. Feel free to change it up.
-  */ }
+			image alignment on a screen this size may be
+			a bit difficult. It's set to start aligning
+			and floating images at the next breakpoint,
+			but it's up to you. Feel free to change it up.
+			*/ }
   .entry-content dd {
     margin-left: 0;
     font-size: 0.9em;
@@ -1034,9 +987,7 @@ and more scalable.
     margin: 0 0 1.5em 0;
     max-width: 100%;
     height: auto; }
-  .entry-content img.size-auto, .entry-content img.size-full,
-  .entry-content img.size-large, .entry-content img.size-medium,
-  .entry-content .attachment img, .entry-content .widget-area img {
+  .entry-content img.size-auto, .entry-content img.size-full, .entry-content img.size-large, .entry-content img.size-medium, .entry-content .attachment img, .entry-content .widget-area img {
     max-width: 100%;
     height: auto; }
   .entry-content video, .entry-content object {
@@ -1069,8 +1020,7 @@ and more scalable.
 /******************************************************************
 09. PAGE NAVI STYLES
 ******************************************************************/
-.page-navigation,
-.wp-prev-next {
+.page-navigation, .wp-prev-next {
   margin: 1.1em 0 2.2em; }
 
 .bones_page_navi {
@@ -1099,16 +1049,11 @@ and more scalable.
     position: relative; }
     .bones_page_navi li.bpn-current a {
       /* hovering on current page link */ }
-  .bones_page_navi li.bpn-prev-link,
-  .bones_page_navi li.bpn-next-link {
+  .bones_page_navi li.bpn-prev-link, .bones_page_navi li.bpn-next-link {
     font-weight: 700; }
-    .bones_page_navi li.bpn-prev-link a,
-    .bones_page_navi li.bpn-next-link a {
+    .bones_page_navi li.bpn-prev-link a, .bones_page_navi li.bpn-next-link a {
       padding: 0; }
-  .bones_page_navi li.bpn-prev-link a:hover,
-  .bones_page_navi li.bpn-next-link a:hover,
-  .bones_page_navi li.bpn-first-page-link a:hover,
-  .bones_page_navi li.bpn-last-page-link a:hover {
+  .bones_page_navi li.bpn-prev-link a:hover, .bones_page_navi li.bpn-next-link a:hover, .bones_page_navi li.bpn-first-page-link a:hover, .bones_page_navi li.bpn-last-page-link a:hover {
     background: none; }
 
 /* end .bones_page_navi */
@@ -1213,27 +1158,17 @@ and more scalable.
       list-style-type: none;
       clear: both;
       margin-bottom: 0.7335em; }
-      .respond-form form li label,
-      .respond-form form li small {
+      .respond-form form li label, .respond-form form li small {
         display: none; }
-    .respond-form form input[type=text],
-    .respond-form form input[type=email],
-    .respond-form form input[type=url],
-    .respond-form form textarea {
+    .respond-form form input[type=text], .respond-form form input[type=email], .respond-form form input[type=url], .respond-form form textarea {
       padding: 3px 6px;
       background: #efefef;
       border: 2px solid #cecece;
       line-height: 1.5em;
       /* form validation */ }
-      .respond-form form input[type=text]:focus,
-      .respond-form form input[type=email]:focus,
-      .respond-form form input[type=url]:focus,
-      .respond-form form textarea:focus {
+      .respond-form form input[type=text]:focus, .respond-form form input[type=email]:focus, .respond-form form input[type=url]:focus, .respond-form form textarea:focus {
         background: #fff; }
-      .respond-form form input[type=text]:invalid,
-      .respond-form form input[type=email]:invalid,
-      .respond-form form input[type=url]:invalid,
-      .respond-form form textarea:invalid {
+      .respond-form form input[type=text]:invalid, .respond-form form input[type=email]:invalid, .respond-form form input[type=url]:invalid, .respond-form form textarea:invalid {
         outline: none;
         border-color: #fbc2c4;
         background-color: #f6e7eb;
@@ -1241,9 +1176,7 @@ and more scalable.
         -moz-box-shadow: none;
         -ms-box-shadow: none;
         box-shadow: none; }
-    .respond-form form input[type=text],
-    .respond-form form input[type=email],
-    .respond-form form input[type=url] {
+    .respond-form form input[type=text], .respond-form form input[type=email], .respond-form form input[type=url] {
       max-width: 400px;
       min-width: 250px; }
     .respond-form form textarea {
@@ -1288,37 +1221,39 @@ and more scalable.
     font-size: 12px; }
 
 /*
-if you checked out the link above:
-http://www.alistapart.com/articles/organizing-mobile/
-you'll want to style the footer nav
-a bit more in-depth. Remember to keep
-it simple because you'll have to
-override these styles for the desktop
-view.
-*/
+	if you checked out the link above:
+	http://www.alistapart.com/articles/organizing-mobile/
+	you'll want to style the footer nav
+	a bit more in-depth. Remember to keep
+	it simple because you'll have to
+	override these styles for the desktop
+	view.
+	*/
 /* end .footer-links */
 .template-file {
   display: none; }
 
 @media print {
   /******************************************************************
-  Site Name:
-  Author:
-  
-  Stylesheet: Print Stylesheet
-  
-  This is the print stylesheet. There's probably not a lot
-  of reasons to edit this stylesheet. If you want to
-  though, go for it.
-  
-  ******************************************************************/
+Site Name:
+Author:
+
+Stylesheet: Print Stylesheet
+
+This is the print stylesheet. There's probably not a lot
+of reasons to edit this stylesheet. If you want to
+though, go for it.
+
+******************************************************************/
+  @page {
+    margin: 0.5cm; }
+
   * {
     background: transparent !important;
     color: black !important;
     text-shadow: none !important;
     filter: none !important;
     -ms-filter: none !important; }
-
   a, a:visited {
     color: #444 !important;
     text-decoration: underline; }
@@ -1326,38 +1261,21 @@ view.
       content: " (" attr(href) ")"; }
     a abbr[title]:after, a:visited abbr[title]:after {
       content: " (" attr(title) ")"; }
-
-  .ir a:after,
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: ""; }
-
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-
   thead {
     display: table-header-group; }
-
   tr, img {
     page-break-inside: avoid; }
-
   img {
     max-width: 100% !important; }
-
-  @page {
-    margin: 0.5cm; }
   p, h2, h3 {
     orphans: 3;
     widows: 3; }
-
-  h2,
-  h3 {
+  h2, h3 {
     page-break-after: avoid; }
-
-  .sidebar,
-  .page-navigation,
-  .wp-prev-next,
-  .respond-form,
-  nav {
+  .sidebar, .page-navigation, .wp-prev-next, .respond-form, nav {
     display: none; } }
